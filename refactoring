@@ -13,7 +13,6 @@ from pygame.draw import *
 3)Задаем базовые параметры экрана
 '''
 pygame.init()
-alpha=100
 RED = (255, 0, 0)
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
@@ -111,13 +110,11 @@ k=0.5#задаем численное значение коэффициента
 Building(k,0,420)
 
 '''здание 2'''
-alpha=100
 Building(k,265,300)
 ellipse(screen, (30,30,30), (400, 300, 300, 70))
 
 
 '''здание 3'''
-alpha
 Building(k,530,170)
 ellipse(screen, DARKGRAY, (200, 400, 600, 60)) 
 ellipse(screen, DARKGRAY, (300, 500, 400, 70))
